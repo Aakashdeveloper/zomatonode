@@ -7,7 +7,7 @@ dotenv.config();
 var mongoUrl = 'mongodb+srv://local:testuser@cluster0.f8vmc.mongodb.net/augintern?retryWrites=true&w=majority';
 var cors = require('cors')
 const bodyParser = require('body-parser')
-var port = process.env.PORT || 8124;
+var port = process.env.PORT || 8125;
 // save the database connection
 var db;
 
